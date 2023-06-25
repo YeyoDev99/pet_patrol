@@ -1,0 +1,398 @@
+.navbar {
+    padding: 2rem;
+    background-color: #f8f2ce;
+}
+
+.nav-link {
+    font-family: 'Tsukimi Rounded', sans-serif;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand img {
+    opacity: 0.7;
+    transition: all 0.2s ease-in;
+}
+
+.navbar-brand:hover img {
+    opacity: 1;
+}
+
+.title-section {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Tsukimi Rounded', sans-serif;
+
+}
+
+.section-text {
+    font-size: 1.2rem;
+    font-family: 'Cairo', sans-serif;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    font-family: 'Amatic SC', cursive;
+}
+
+
+
+.hero {
+    background-color: #d8d989;
+    min-height: 450px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.hero-principal {
+    padding: 3rem;
+}
+
+.hero-principal h2 {
+    font-size: 1.5rem;
+    color: #493d3f;
+    font-family: 'Tsukimi Rounded', sans-serif;
+}
+
+.products {
+    padding: 2.5rem 2.5rem 3.75rem 2.5rem;
+}
+
+.img-principal {
+    max-width: 15rem;
+    max-height: 15rem;
+    margin: 0 auto;
+}
+
+
+
+.image-hero-inferior {
+    max-height: 500px;
+    border-radius: 2rem;
+}
+.dark-section {
+    background-color: #493d3f;
+    color: #f8f2ce;
+}
+
+.clear-section {
+    color: #020202;
+    background-color: #f8f2ce;
+}
+
+.about-us {
+    height: 500px;
+    padding: 10px;
+}
+
+.about-us .cont {
+    max-width: 600px;
+    text-align: center;
+}
+
+.products .row .column {
+    min-height: 15.625rem;
+}
+
+.product-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0;
+    font-family: 'Tsukimi Rounded', sans-serif;
+}
+
+
+.product-description {
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
+}
+
+.products i {
+    font-size: 2.5rem;
+    color: #493d3f;
+    padding: 8px 19px;
+    border-radius: 50%;
+}
+
+.badges-container {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+
+.badge {
+    margin: 0.313rem;
+    background-color:  #493d3f;
+}
+
+.products .column {
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition: all 0.2s ease-in;
+}
+
+.products .column:hover {
+    color: #f8f2ce;
+    background-color: #020202;
+} 
+
+.headquarters {
+    padding: 40px;
+}
+
+.black-section {
+    color: #020202;
+}
+
+.description-section {
+    font-size: 1.2rem;
+    color: #493d3f;
+    font-family: 'Cairo', sans-serif;
+    font-weight: bolder;
+}
+
+.description-section img {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2 ease;
+}
+
+.headquarters-container {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.overlay {
+    transition: all 0.2 ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.headquarter {
+    position: relative;
+    text-align: center;
+}
+
+
+.overlay .icon-container {
+    display: flex;
+    padding: 0 auto;
+}
+
+.overlay i {
+    color:  #493d3f;
+    font-size: 60px;
+    margin: 10px;
+}
+
+.headquarter:hover img {
+    opacity: 0.2;
+}
+
+.headquarter:hover .overlay {
+    opacity: 1;
+}
+
+.testimonials {
+    padding: 40px 40px 80px 40px;
+}
+
+.testimonials .carousel {
+    max-width: 800px;
+}
+
+.testimonial-image {
+    width: 10rem;
+    height: 10rem;
+    margin: 10px 10px 20px 10px;
+}
+
+.testimonial-text {
+    max-width: 70%;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Cairo', sans-serif;
+}
+
+.testimonial-info {
+    font-weight: bold;
+}
+
+.testimonial-info .client {
+    font-size: 1.2rem;
+}
+
+.testimonial-info .charge {
+    font-size: 0.9rem;
+    color: #493d3f;
+}
+
+.carousel-item {
+    min-height: 500px;
+    text-align: center;
+}
+
+.carousel-item .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contact .rectangle {
+    margin-top: -5rem;
+    background-color: #020202;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px #f8f2ce;
+}
+
+.contact .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contact .description {
+    color: #f8f2ce;
+    font-size: 1.2rem;
+}
+
+.contact button {
+    color: #f8f2ce;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid #f8f2ce;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contact button i {
+    color: #f8f2ce;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.contact button:hover {
+    background-color: #f8f2ce;
+    color: #020202;
+}
+
+.contact button:hover i {
+    color: #020202;
+}
+
+footer {
+    min-height: 500px;
+}
+
+.footer-icon {
+    font-size: 80px;
+    margin: 10px;
+}
+
+.footer-text {
+    font-size: 1.5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Tsukimi Rounded', sans-serif;
+
+}
+
+.social-networks-icons a{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 10px;
+    border: 2px solid #f8f2ce;
+    border-radius: 50%;
+    transition: all 0.2s ease-in;
+}
+
+.social-networks-icons i {
+    color: #f8f2ce;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.social-networks-icons a:hover {
+    background-color: #f8f2ce;
+    border: 2px solid #d8d989;
+}
+
+.social-networks-icons a:hover i {
+    color: #020202;
+
+}
+
+.copyright {
+    font-size: 15px;
+    color: #d8d989;
+    padding: 20px;
+}
+
+
+@media screen and (max-width: 400px) {
+
+    .overlay i {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+@media screen and(max-width: 800px){
+    
+    .testimonial-image{
+    height: 120px;
+    width: 120px;
+    }
+
+    .testimonial-text {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (min-width: 700px) {
+    .image-hero-inferior {
+        width: 400px;
+    }
+}
